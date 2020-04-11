@@ -218,3 +218,25 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, serif, Times, serif;
     color: black;
   }
+  /* report */
+  .Rword{
+    font-size: 50;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+  }
+  .bigd{
+    border:solid black 5px;
+  }
+  .padding{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .paddingj{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 35px;
+    font-weight: bold;
+  }
