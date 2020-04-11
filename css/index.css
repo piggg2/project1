@@ -1,0 +1,220 @@
+/*div {
+  border-bottom: solid 1px green;
+  border-left: solid 1px gray;
+  border-right: solid 1px blue;
+  border-top: solid 1px red;
+}
+*/
+.box{
+  width:240px;
+  
+  background-color: lightgrey;
+  border-radius: 15px;
+  float:left;
+}
+.ultimate{
+  display:flex;
+justify-content: center;
+align-items: flex-start;
+
+
+}
+.link{
+  float:right;
+  
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+a{
+    font-size: 25px;
+    color:black;
+    background-color: turquoise;
+    font-weight: bold;
+}
+.lt {
+  display: flex;
+  align-items: flex-start;
+  justify-self: flex-start;
+}
+.bz {
+  display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.title {
+  font-family: verdana;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.words {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.zhanshi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.subtitle {
+  background-color: grey;
+  color: black;
+  text-align: center;
+}
+.widthD {
+  width: 680px;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.displayL {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+#header {
+  width: 100%;
+}
+h3 {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+.sedan {
+  width: 40%;
+  height: 50%;
+  left: 50px;
+  top: 50px;
+}
+.SUV {
+  width: 40%;
+  height: 50%;
+}
+#header td {
+  width: 33%;
+}
+.black{
+background-color: black;
+}
+.hziti{
+    color:white;
+    padding-left: 100px;
+}
+form{
+    padding-left: 100px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;;
+}
+
+/* id = # */
+/* class = . */
+
+/* introduce */
+.Ititle {
+  color: black;
+  text-align: center;
+}
+.Iwrap {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.chetou {
+  width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.Iword1 {
+  width: 650px;
+  padding-left: 50px;
+}
+
+.Iwrap2 {
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.Iword2 {
+  width: 650px;
+  padding-left: 50px;
+  color: white;
+}
+.neishi {
+  width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sedan */
+.black {
+  background-color: black;
+}
+.Stitle {
+  color: white;
+  text-align: center;
+}
+.Sword {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+
+/* SUV */
+.sb {
+  background-color: skyblue;
+}
+.Sutitle {
+  color: black;
+  text-align: center;
+}
+.Suword {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, serif, Times, serif;
+  color: black;
+}
+
+/* coupe */
+.Ctitle {
+    color: black;
+    text-align: center;
+  }
+  .Cword {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, serif, Times, serif;
+    color: black;
+  }
+
+  /* M power */
+  .Mtitle {
+    color: black;
+    text-align: center;
+  }
+  .grey {
+    background-color: grey;
+  }
+  .Mword {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, serif, Times, serif;
+    color: black;
+  }
